@@ -216,6 +216,21 @@ x = [[0 for i in range(10)] for j in range(10)]
 str_arr = [3, 4, 5]
 str_arr.reverse() # str_arr : [3, 4, 5] (does not return anything)
 
+# get contiguous elements from a list:
+def get_all_shipments(weights): 
+    n = len(weights)
+    result = []
+    for i in range(n): 
+        temp=[] 
+        for j in range(i,n): 
+          temp.append(weights[j])
+          temp_tup = tuple(temp)
+          result.append(temp_tup)
+    return result
+
+get_all_shipments([1,2,3])
+# [(1,), (1, 2), (1, 2, 3), (2,), (2, 3), (3,)]
+
 # ----------------------- LIST SECTION ENDS --------------------------- #
 
 # O(1) search Time! -- use Set instead of lists
