@@ -5,7 +5,8 @@ Things to consider while making design decisions and **trade offs** [CAPSS]:
 3. Scalability
 4. Security
 5. Extensibility - how extensible is the data model. can you change data model
-6. Recovery - how to recover data in case of outage
+6. Expense - cost involved 
+7. Recovery - how to recover data in case of outage
 
 
 Source: https://www.youtube.com/watch?v=bUHFg8CZFws
@@ -23,3 +24,5 @@ Some Solutions:
 3. Penalize people misusing the system - negative balances
 
 ===
+
+Highly scalable, performant & available system: ![Youtube](images/Youtube.png)
