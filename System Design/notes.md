@@ -25,4 +25,5 @@ Some Solutions:
 
 ===
 
-Highly scalable, performant & available system: [Youtube](images/Youtube.png)
+Highly scalable, performant & available system: YouTube
+![Youtube Architecture](images/Youtube.png)
