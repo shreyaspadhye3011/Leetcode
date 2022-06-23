@@ -1,7 +1,7 @@
-Things to consider while making design decisions and **trade offs** [CAPSS]:
+Things to consider while making design decisions and **trade offs** [CAPS-SER]:
 1. Consistency
 2. Availability
-3. Performance - fast reads and fast writes. Internal trade offs might be required here as some problems can't support both. Work with interviewer to choose.
+3. Performance - fast reads and fast writes. Internal trade offs might be required here as some problems can't support both. Work with interviewer to choose. -> eg NoSQL is fast write but slower read whereas SQL offers average both
 3. Scalability
 4. Security
 5. Extensibility - how extensible is the data model. can you change data model
