@@ -74,6 +74,15 @@ def isPrime(number):
         divisor += 1
     return True
 
+# square root
+import math
+math.sqrt(15) # 3.872983346207417
+
+# remember that division returns float in python
+# use int() to cast to int for use in loops
+print(4/2) # 2.0
+print(int(4/2)) # 2
+
 # Checking every element against every other upcoming number in an array
 length = len(array)
 for idx in range(length-1):

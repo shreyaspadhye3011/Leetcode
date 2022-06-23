@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/consecutive-numbers-sum/
+# Result: TLE on leetcode
 class Solution(object):
     def consecutiveNumbersSum(self, n):
         """
