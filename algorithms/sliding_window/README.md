@@ -1,0 +1,2 @@
+- Whenever you see "consecutive", think of sliding window as a possibility
+- Think what could be the deciding factor to shrink or grow the window
