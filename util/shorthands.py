@@ -542,7 +542,10 @@ bin(4)  # O: '-0b100'    # notice that the response is binary. it has this 0b th
 bin(~4) # O: '-0b101'   # 2's complement 
 
 # convert binary string to int
-int('101', 2)   # O: 5
+int('101', 2)   # 5
+
+# Decimal precision - divide and show float result upto 6 decimal places
+"{:.6f}".format(2/3) # 0.666666
 
 # get complement (reverse. Not 2's complement. For 2's complement simply use ~ on a decimal numbner)
 ''.join([str((int(c) ^ 1)) for c in "0011"]) # o: 1100 # approach: XOR each bit by 1 and save. join list to string. type castings used because iteration only works on string, but XOR only works on number and join only works on string
