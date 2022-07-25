@@ -240,6 +240,10 @@ def get_all_shipments(weights):
 get_all_shipments([1,2,3])
 # [(1,), (1, 2), (1, 2, 3), (2,), (2, 3), (3,)]
 
+# Multi-dimensional arrayss
+# initializing a matrix
+a = [[0,10], [9,11]]
+
 # ----------------------- LIST SECTION ENDS --------------------------- #
 
 # O(1) search Time! -- use Set instead of lists
