@@ -1,0 +1,29 @@
+# All questions in individual folders
+Color - Light Bulbs and brightness
+Amazon - Parking Lot
+Google - Design cursor (use mod operator to return to init position)
+
+To Read:
+1. Netflix' microservices architecture
+2. Google's Haddoop, HDFS (story, implementation)
+3. Spotify's architecture
+
+# General
+**What is GraphQL ?
+How do you choose whether to use SQL or NoSQL for something
+How would you design Facebook? (posts, comments, likes)
+
+# Microsoft:
+Example system design questions asked at Microsoft
+
+How would you design a Web search history record / fetch tool
+How would you design an IDE like Visual Studio
+How would you design Instagram
+How would you design Uber
+How would you design OpenTable
+How would you design Dropbox / iCloud
+How would you design a shopping cart for Amazon.com
+How would you design the photo gallery app on iOS
+How would you design a distributed cache
+How would you design an API for a running app
+How would you design an API for a tic tac toe game

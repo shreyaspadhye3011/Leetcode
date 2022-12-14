@@ -792,3 +792,8 @@ FROM (SELECT MAX(COST) as maxHigh FROM Visit WHERE urgency = 'Highest') v, (SELE
 
 
 
+# Decorators
+# https://www.youtube.com/watch?v=r7Dtus7N4pI
+
+# Args and kwargs
+# https://www.youtube.com/watch?v=GdSJAZDsCZA
